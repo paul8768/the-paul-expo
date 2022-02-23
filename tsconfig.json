@@ -16,9 +16,18 @@
     "noFallthroughCasesInSwitch": true, //switch문 이상하면 에러내기
     "baseUrl": ".",
     "paths": {
-      "@/*": ["src/*"]
+      "@utils/*": ["./src/utils/*"],
+      "@hooks/*": ["./src/utils/hooks/*"],
+      "@resources/*": ["./src/resources/*"],
+      "@constants/*": ["./src/constants/*"],
+      "@chatlib/*": ["./src/chatlib/*"],
+      "@service/*": ["./src/service/*"],
+      "@queries/*": ["./src/queries/*"],
+      "@components/*": ["./src/components/*"],
+      "@navigator/*": ["./src/navigator/*"],
+      "@containers/*": ["./src/containers/*"]
     }
   },
-  "include": ["**/*.ts", "**/*.tsx"],
+  "include": ["**/*.ts", "**/*.tsx", "**/*.js"],
   "exclude": ["node_modules"]
 }

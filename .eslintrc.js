@@ -28,7 +28,6 @@ module.exports = {
   // 규칙
   rules: {
     'no-use-before-define': 'off',
-    'import/extensions': ['error', 'never'],
     'react/prop-types': 'off',
     'no-shadow': 'off',
     'react/jsx-filename-extension': ['error', { extensions: ['.js', '.jsx', 'tsx', 'ts'] }],
