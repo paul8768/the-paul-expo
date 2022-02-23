@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "jsx": "react",
-    "target": "es5",
+    "target": "es6",
     "module": "commonjs",
     "allowJs": true,
     "removeComments": true,
@@ -30,7 +30,7 @@
       "@containers/*": ["./src/containers/*"]
     }
   },
-  "include": ["**/*.ts", "**/*.tsx", "**/*.js"],
+  "include": ["**/*.ts", "**/*.tsx"],
   "exclude": ["node_modules"],
   "extends": "expo/tsconfig.base"
 }
