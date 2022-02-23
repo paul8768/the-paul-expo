@@ -42,4 +42,9 @@ module.exports = {
     ],
     'react/style-prop-object': 'off',
   },
+  settings: {
+    'import/resolver': {
+      typescript: {},
+    },
+  },
 };
