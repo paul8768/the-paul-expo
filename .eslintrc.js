@@ -23,18 +23,16 @@ module.exports = {
     'airbnb/hooks',
     'plugin:@typescript-eslint/recommended',
     'prettier',
-    'prettier/@typescript-eslint',
     'plugin:prettier/recommended',
   ],
   // 규칙
   rules: {
     'no-use-before-define': 'off',
-    '@typescript-eslint/no-use-before-define': ['error'],
     'import/extensions': ['error', 'never'],
-    'react/prop-types': 0,
+    'react/prop-types': 'off',
     'no-shadow': 'off',
     '@typescript-eslint/no-shadow': ['error'],
-    'react/jsx-filename-extension': [warn, { extensions: ['.js', '.jsx', 'tsx', 'ts'] }],
+    'react/jsx-filename-extension': ['error', { extensions: ['.js', '.jsx', 'tsx', 'ts'] }],
     'prettier/prettier': 'error', // Error when breaking Prettier rules
     'import/no-duplicates': 'error', // no-duplicate-imports autofix
     'react-native/no-inline-styles': 0,
@@ -44,5 +42,6 @@ module.exports = {
       'warn',
       { vars: 'all', varsIgnorePattern: '^_', args: 'after-used', argsIgnorePattern: '^_' },
     ],
+    'react/style-prop-object': 'off',
   },
 };
