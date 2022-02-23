@@ -31,7 +31,6 @@ module.exports = {
     'import/extensions': ['error', 'never'],
     'react/prop-types': 'off',
     'no-shadow': 'off',
-    '@typescript-eslint/no-shadow': ['error'],
     'react/jsx-filename-extension': ['error', { extensions: ['.js', '.jsx', 'tsx', 'ts'] }],
     'prettier/prettier': 'error', // Error when breaking Prettier rules
     'import/no-duplicates': 'error', // no-duplicate-imports autofix
