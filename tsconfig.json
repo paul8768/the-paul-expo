@@ -30,7 +30,7 @@
       "@containers/*": ["./src/containers/*"]
     }
   },
-  "include": ["**/*.ts", "**/*.tsx"],
+  "include": ["**/*.ts", "**/*.tsx", "**/*.js"],
   "exclude": ["node_modules"],
   "extends": "expo/tsconfig.base"
 }

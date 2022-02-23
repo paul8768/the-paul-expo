@@ -8,7 +8,7 @@ module.exports = {
   parser: '@typescript-eslint/parser',
   // ECMScript 규격의 JSX 사용 여부
   parserOptions: {
-    ecmaVersion: 2018,
+    ecmaVersion: 2020,
     sourceType: 'module',
     project: './tsconfig.json',
     ecmaFeatures: {
@@ -41,6 +41,7 @@ module.exports = {
       { vars: 'all', varsIgnorePattern: '^_', args: 'after-used', argsIgnorePattern: '^_' },
     ],
     'react/style-prop-object': 'off',
+    'import/no-cycle': 'off',
   },
   settings: {
     'import/resolver': {
